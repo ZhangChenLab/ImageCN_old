@@ -3,7 +3,7 @@ clc; clear;close all
 Path = ('F:\data\software\program\20171122');  % folder location
 filemane='ref.tif'; % file mane
 frame_rate=20.4; % frame rate
-% FileGeneration(Path,filemane,frame_rate);
+FileGeneration(Path,filemane,frame_rate);
 %% Reference image generation
 RefGeneration(Path)
 %% ROI detection
